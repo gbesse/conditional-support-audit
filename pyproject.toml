@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conditional-support-audit"
+version = "0.1.0a1"
+description = "FR: Repérer les combinaisons synthétiques absentes de la référence | EN: Find synthetic combinations absent from reference support | ES: Encontrar combinaciones sintéticas ausentes del soporte de referencia"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+conditional-support-audit = "conditional_support_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["conditional_support_audit*"]

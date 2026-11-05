@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Repérer les combinaisons synthétiques absentes de la référence', 'en': 'Find synthetic combinations absent from reference support', 'es': 'Encontrar combinaciones sintéticas ausentes del soporte de referencia'}

@@ -1,0 +1,22 @@
+{
+  "columns": [
+    "region",
+    "kind"
+  ],
+  "reference": [
+    {
+      "region": "A",
+      "kind": "x"
+    },
+    {
+      "region": "B",
+      "kind": "y"
+    }
+  ],
+  "synthetic": [
+    {
+      "region": "A",
+      "kind": "y"
+    }
+  ]
+}
